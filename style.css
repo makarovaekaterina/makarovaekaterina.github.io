@@ -1,0 +1,99 @@
+body {
+    font-family: Georgia;
+    font-size: 16px;
+    margin: 0 auto;   /* center content */
+    max-width: 800px; /* limit width */
+    line-height: 1.5;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+/* BEGIN (write your solution here) */
+.header {
+    margin: -10px auto;
+    width: 950px;
+    height: 125px;
+    text-align: center;
+    display: block;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 10px black;
+    margin-bottom: 32px;
+}
+.header h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: -5px;
+}
+.header h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: -5px;
+}
+.header a {
+    text-decoration: none;
+}
+.header a:hover {
+    background: #969696;
+    color: #fff;
+}
+.main {
+    margin: 32px auto;
+    width: 950px;
+    height: auto;
+    display: block;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 10px black;
+    padding-bottom: 5px;
+}
+.main h2 {
+    font-size: 32px;
+    font-weight: 400;
+}
+.main h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+.main hr {
+    border: none;
+    color: #969696;
+    background-color: #969696;
+    height: 1px;
+    margin-bottom: 8px;
+    width: 900px;
+}
+.main .hoby {
+    margin-left: 35px;
+}
+.main .zagolovok {
+    margin-left: 35px;
+}
+.main .zagolovok2 {
+    margin-left: 35px;
+}
+.main ul {
+    margin-left: 35px;
+    margin-bottom: 8px;
+}
+.footer {
+    margin: 0px auto 12px auto;
+    text-align: center;
+    width: 950px;
+    height: 65px;
+    display: block;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0.5px 0.5px 10px black;
+}
+.footer a {
+    text-decoration: none;
+}
+.footer a:hover {
+    background: #969696;
+    color: #fff;
+}
+.footer .name {
+    font-weight: bold;
+}
+/* END */
